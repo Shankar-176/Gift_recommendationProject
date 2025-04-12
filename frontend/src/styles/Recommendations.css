@@ -1,0 +1,112 @@
+.recommendations-container {
+  margin-top: 30px;
+  padding: 30px 20px;
+  background-color: #f2f4f7;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.recommendations-container h2 { 
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+  font-size: 26px;
+}
+
+.error-msg {
+  text-align: center;
+  color: #ff4444;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.recommendation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.recommendation-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.recommendation-card:hover {
+  transform: translateY(-3px);
+}
+
+.gift-image-container {
+  height: 200px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f8f9fa;
+}
+
+.gift-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.gift-details h3 {
+  font-size: 18px;
+  color: #2d3436;
+  margin-bottom: 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: #636e72;
+  margin-bottom: 12px;
+  line-height: 1.4;
+}
+
+.gift-meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.price {
+  color: #00b894;
+  font-weight: 600;
+}
+
+.platform {
+  color: #6c5ce7;
+  font-weight: 500;
+}
+
+.view-link {
+  display: block;
+  text-align: center;
+  background: #00b894;
+  color: white !important;
+  padding: 10px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.view-link:hover {
+  background: #009d7a;
+}
+
+.loading-message {
+  text-align: center;
+  color: #666;
+  font-size: 18px;
+}
+
+.no-results {
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+}
