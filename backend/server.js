@@ -118,5 +118,5 @@ app.get("/api/recommendations", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || "https://gift-recommendation-ulo1.onrender.com";
 app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
