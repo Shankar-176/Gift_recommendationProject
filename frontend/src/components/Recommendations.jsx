@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../styles/recommendations.css";
+import "../styles/Recommendations.css";
 
 const Recommendations = () => {
   const [recommendations, setRecommendations] = useState([]);
