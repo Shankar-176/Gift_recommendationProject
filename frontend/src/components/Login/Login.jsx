@@ -15,7 +15,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const url = "http://localhost:5000/api/auth";
+      const url = "https://gift-recommendation-ulo1.onrender.com"
       const { data: res } = await axios.post(url, data);
       localStorage.setItem("token", res.token); // ✅ store token
       navigate("/"); // ✅ redirect to Questionnaire
